@@ -1,19 +1,19 @@
 vm_types:
 - name: minimal
   cloud_properties:
-    instance_type: minimal
+    instance_type: R2_C1_PASS
 - name: small
   cloud_properties:
-    instance_type: small
+    instance_type: R4_C2_PASS
 - name: small-highmem
   cloud_properties:
-    instance_type: small-highmem
+    instance_type: R16_C8_PASS
 - name: small-50GB-ephemeral-disk
   cloud_properties:
-    instance_type: small-50GB-ephemeral-disk
+    instance_type: R8_C4_PASS
 - name: small-highmem-100GB-ephemeral-disk
   cloud_properties:
-    instance_type: small-highmem-100GB-ephemeral-disk
+    instance_type: R16_C8_PASS
 
 disk_types:
 - name: 5GB

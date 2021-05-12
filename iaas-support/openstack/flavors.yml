@@ -1,21 +1,17 @@
 ---
-- name: minimal
-  ram: 3840
+- name: R2_C1_PASS
+  ram: 2024
   vcpus: 1
-  ephemeral: 10
-- name: small
-  ram: 7680
+  ephemeral: 40
+- name: R8_C4_PASS
+  ram: 8096
   vcpus: 2
-  ephemeral: 14
-- name: small-highmem
-  ram: 31232
-  vcpus: 4
-  ephemeral: 10
-- name: small-50GB-ephemeral-disk
-  ram: 7680
+  ephemeral: 80
+- name: R8_C4_PASS
+  ram: 8096
   vcpus: 2
-  ephemeral: 50
-- name: small-highmem-100GB-ephemeral-disk
-  ram: 31232
-  vcpus: 4
-  ephemeral: 100
+  ephemeral: 80
+- name: R16_C8_PASS
+  ram: 16232
+  vcpus: 8
+  ephemeral: 160
